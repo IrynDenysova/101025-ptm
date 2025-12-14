@@ -1,0 +1,13 @@
+  1  cd /opt/101025-ptm/IDenysova
+  2  vim task_Iryna.sh
+  3  chmod +x task_Iryna.sh
+  4 ./task_Iryna.sh  
+  5  ls -la 
+  6  ls TestCron/
+  7  crontab -e
+  8  EDITOR=vim crontab -e
+  9  tar -cvf TestCron.tar  TestCron/
+  10 crontab -e
+  11 history
+  12 history | tail -50 >> history.txt
+  13 tar -rf TestCron.tar history.txt 
